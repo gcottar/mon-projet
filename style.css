@@ -1,23 +1,40 @@
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+  background-color: #1f2039;
+}
 a {
-    color: black;
-    font-size: 1em;
-    text-decoration: none;
-    font-family: "Manrope", sans-serif;
+  color: #242424;
+  font-size: 1em;
+  text-decoration: none;
+  font-family: "Manrope", sans-serif;
 }
 .important {
-    color: #A5B4FC;
+  color: #a5b4fc;
 }
-p {
-    font-family: "Manrope", sans-serif;
-    font-size: 1.1em;
-}
+p,
 li {
-      font-family: "Manrope", sans-serif;
-      font-size: 1em;
-    }
+  font-family: "Manrope", sans-serif;
+  font-size: 1.1em;
+  color: #f9f8ff;
+}
 h1 {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-size: 3.5em;
-    color: #A5B4FC;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5em;
+  color: #a5b4fc;
+}
+h2 {
+  color: #f9f8ff;
+}
+.en_tete,
+.pied_de_page {
+  background-color: white;
+}
+em {
+  color: #a5b4fc;
+  font-style: normal;
+}
+.cta {
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
 }
