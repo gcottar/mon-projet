@@ -9,8 +9,11 @@ a {
   text-decoration: none;
   font-family: "Manrope", sans-serif;
 }
-.important {
-  color: #a5b4fc;
+a:hover {
+  text-decoration: underline;
+  /*background: linear-gradient(#8e86b5, #acaeed);
+  text-decoration: none;
+  border-radius: 2px;*/
 }
 p,
 li {
@@ -26,9 +29,12 @@ h1 {
 h2 {
   color: #f9f8ff;
 }
-.en_tete,
-.pied_de_page {
+.en-tete,
+.pied-de-page {
   background-color: white;
+}
+.opacity:hover {
+opacity: 0.5;
 }
 em {
   color: #a5b4fc;
@@ -37,4 +43,13 @@ em {
 .cta {
   background: linear-gradient(#8e86b5, #acaeed);
   color: white;
+  border-radius: 50px;
+}
+.cta:hover {
+  background: linear-gradient(#696484, #8788BA);
+  text-decoration: none;
+}
+.carre-liste {
+ border-right: 1px solid #8e86b5;
+ border-bottom: 1px solid #8e86b5;
 }
