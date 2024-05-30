@@ -33,9 +33,7 @@ h2 {
 .pied-de-page {
   background-color: white;
 }
-.opacity:hover {
-opacity: 0.5;
-}
+
 em {
   color: #a5b4fc;
   font-style: normal;
@@ -46,10 +44,13 @@ em {
   border-radius: 50px;
 }
 .cta:hover {
-  background: linear-gradient(#696484, #8788BA);
+  background: linear-gradient(#696484, #8788ba);
   text-decoration: none;
 }
 .carre-liste {
- border-right: 1px solid #8e86b5;
- border-bottom: 1px solid #8e86b5;
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+}
+.opacity:hover {
+  opacity: 0.5;
 }
