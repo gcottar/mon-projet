@@ -25,6 +25,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5em;
   color: #a5b4fc;
+  margin: 0px 0px 10px 0px;
 }
 h2 {
   color: #f9f8ff;
@@ -69,4 +70,10 @@ section {
 .a-propos {
   width: 50%;
   margin: auto;
+}
+.description {
+  margin: 0px 0px 15px 0px;
+}
+.portrait {
+  border-radius: 8px;
 }
