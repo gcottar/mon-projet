@@ -29,8 +29,8 @@ h1 {
 h2 {
   color: #f9f8ff;
 }
-.en-tete,
-.pied-de-page {
+header,
+footer {
   background-color: white;
 }
 
